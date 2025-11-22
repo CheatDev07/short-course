@@ -40,7 +40,24 @@ non-linear ==> branch system
    --> choose HTTPs 
    --> Verify code with web browser
 ```
+# command for add project into git 
+==> In condition you init the new repository 
+```
+   git init 
+   git add . //at all files and if you want to add specific file you can use: git add filename
+   git commit -m "message" 
+   git remote add origin https://reposity.git 
+   git push origin {branch}
+``` 
 
+===> In condition you have exisiting git repository
+```
+  git add . 
+  git commit -m "message"
+  git push origin {branch}
+```
 
-
-# short-course
+### Using gh to create git repository 
+```
+   gh repo create https://github.com/CheatDev07/short-course-test1.git --public
+```
