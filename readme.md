@@ -69,3 +69,14 @@ non-linear ==> branch system
    
   gh repo clone TheOdinProject/javascript-exercises
 ```
+
+## clear cache in git
+```
+  git rm -r --cached . 
+
+```
+
+## renew name of origin 
+```
+git remote rename <old-remote-name> <new-remote-name>
+```
