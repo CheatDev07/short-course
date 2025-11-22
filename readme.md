@@ -61,3 +61,11 @@ non-linear ==> branch system
 ```
    gh repo create https://github.com/CheatDev07/short-course-test1.git --public
 ```
+
+
+### clone project 
+```
+  git clone https://github.com/TheOdinProject/javascript-exercises.git
+   
+  gh repo clone TheOdinProject/javascript-exercises
+```
